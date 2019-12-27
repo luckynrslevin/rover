@@ -1,0 +1,5 @@
+/*
+!/conf/local.conf.patch
+/conf/*
+!/README.md
+!/.gitignore
