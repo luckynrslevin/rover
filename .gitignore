@@ -5,5 +5,5 @@
 build/*
 
 # Allow
-! build/conf/local.conf.patch
+!build/conf/local.conf.patch
 
