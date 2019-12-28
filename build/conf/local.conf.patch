@@ -1,5 +1,5 @@
---- local.conf	2019-12-27 15:05:19.000000000 +0100
-+++ local_new.conf	2019-12-27 15:03:36.000000000 +0100
+--- local.conf	2019-12-28 01:55:09.000000000 +0100
++++ local_new.conf	2019-12-28 01:54:38.000000000 +0100
 @@ -26,2 +26,3 @@
  #MACHINE ?= "qemux86-64"
 +MACHINE ?= "raspberrypi3-64"
@@ -12,3 +12,10 @@
 +file://.* http://sstate.yoctoproject.org/3.0/PATH;downloadfilename=PATH \n \
 +file://.* http://sstate.yoctoproject.org/3.0.1/PATH;downloadfilename=PATH \n \
 +"
+ 
+@@ -268 +275,5 @@
+ CONF_VERSION = "1"
++
++# Add additional application to core image
++CORE_IMAGE_EXTRA_INSTALL += "drivingcontrol"
++
