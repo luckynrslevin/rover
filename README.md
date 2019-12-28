@@ -3,7 +3,7 @@
 Project to build image for rover project based on yocto using docker.
 
 ## Prerequisite
-Linux build system compatible for yocto, see https://www.yoctoproject.org/docs/3.0/mega-manual/mega-manual.html#required-packages-for-the-build-host
+Linux build system compatible with yocto, see https://www.yoctoproject.org/docs/3.0/mega-manual/mega-manual.html#required-packages-for-the-build-host
 
 
 ## Howto
